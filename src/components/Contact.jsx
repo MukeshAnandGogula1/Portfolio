@@ -9,30 +9,24 @@ const Contact = () => {
         send a quick message using the form.</p>
 
         <ul className="contact-list">
-          <li>
-            Email: <a href="mailto:mukeshanandgogula@gmail.com">mukeshanandgogula@gmail.com</a>
-          </li>
-          <li>Phone: +91‑79955 32890</li>
-          <li>
-            LinkedIn:{' '}
-            <a
-              href="https://www.linkedin.com/in/mukesh-anand-gogula-495115291"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              /in/mukesh-anand-gogula-495115291
-            </a>
-          </li>
-          <li>
-            GitHub:{' '}
-            <a
-              href="https://github.com/MukeshAnandGogula1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              MukeshAnandGogula1
-            </a>
-          </li>
+                <div className="links">
+        <a
+          href="https://www.linkedin.com/in/mukesh-anand-gogula-495115291"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/MukeshAnandGogula1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        <a href="mailto:mukeshanandgogula@gmail.com">Email</a>
+        <a href="#contact">Contact</a>
+      </di>
         </ul>
 
         <form

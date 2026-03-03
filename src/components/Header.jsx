@@ -11,7 +11,7 @@ const Header = () => {
       transition={{ duration: 0.8 }}
     >
       <h1>Mukesh Anand Gogula</h1>
-      <p className="subtitle">AI & ML | Developer | Cybersecurity Enthusiast</p>
+      <p className="subtitle">AI & ML Enthusiast | Software Developer  </p>
       <div className="links">
         <a
           href="https://www.linkedin.com/in/mukesh-anand-gogula-495115291"

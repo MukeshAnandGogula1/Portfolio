@@ -1,5 +1,7 @@
+
 import React from 'react';
 import Section from './Section';
+import './Header.css'; 
 
 const Contact = () => {
   return (
@@ -8,13 +10,12 @@ const Contact = () => {
         <p>If you'd like to get in touch, feel free to reach out via any of the options below or
         send a quick message using the form.</p>
 
-        <ul className="links">
-          <li>
-            Email: <a href="mailto:mukeshanandgogula@gmail.com">mukeshanandgogula@gmail.com</a>
-          </li>
-          <li>Phone: +91‑79955 32890</li>
-          <li>
-            LinkedIn:{' '}
+        <div className="links">
+          
+            <a href="mailto:mukeshanandgogula@gmail.com">mukeshanandgogula@gmail.com</a>
+         
+             <a><p>Phone: +91‑79955 32890</p></a>
+          
             <a
               href="https://www.linkedin.com/in/mukesh-anand-gogula-495115291"
               target="_blank"
@@ -22,9 +23,7 @@ const Contact = () => {
             >
               🔗 LinkedIn
             </a>
-          </li>
-          <li>
-            GitHub:{' '}
+          
             <a
               href="https://github.com/MukeshAnandGogula1"
               target="_blank"
@@ -33,8 +32,8 @@ const Contact = () => {
             🐙 GitHub
 
             </a>
-          </li>
-        </ul>
+          
+        </div>
 
         <form
           className="contact-form"

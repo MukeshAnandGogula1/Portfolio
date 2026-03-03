@@ -14,19 +14,18 @@ const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          LinkedIn
+          🔗 LinkedIn
         </a>
         <a
           href="https://github.com/MukeshAnandGogula1"
           target="_blank"
           rel="noopener noreferrer"
         >
-          GitHub
+          🐙 GitHub
         </a>
-        <a href="mailto:mukeshanandgogula@gmail.com">Email</a>
-        <a href="#contact">Contact</a>
+        <a href="mailto:mukeshanandgogula@gmail.com">✉️ Email</a>
+        <a href="#contact">📩 Contact</a>
       </div>
-
         <form
           className="contact-form"
           action="mailto:mukeshanandgogula@gmail.com"

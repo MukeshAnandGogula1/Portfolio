@@ -8,8 +8,7 @@ const Contact = () => {
         <p>If you'd like to get in touch, feel free to reach out via any of the options below or
         send a quick message using the form.</p>
 
-        <ul className="contact-list">
-                <div className="links">
+        <div className="links">
         <a
           href="https://www.linkedin.com/in/mukesh-anand-gogula-495115291"
           target="_blank"
@@ -26,8 +25,7 @@ const Contact = () => {
         </a>
         <a href="mailto:mukeshanandgogula@gmail.com">Email</a>
         <a href="#contact">Contact</a>
-      </di>
-        </ul>
+      </div>
 
         <form
           className="contact-form"

@@ -1,0 +1,213 @@
+/* Global resets and typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f0f4f8;
+  color: #0d1b2a;
+  line-height: 1.6;
+}
+
+.app-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+.section {
+  margin: 40px 0;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #00b4d8;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.profile-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #00b4d8;
+}
+
+.profile-text h2 {
+  margin-bottom: 8px;
+}
+
+.education-item,
+.project-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-badge {
+  background: #00b4d8;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.projects-container {
+  /* default to column for narrow screens */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-card h3 {
+  margin-bottom: 6px;
+}
+
+.project-card .tech {
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.cert-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* header links wrapping and spacing */
+.header .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+/* tablet and laptop grid for projects */
+@media (min-width: 600px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+}
+
+/* contact form width adjustment */
+@media (max-width: 600px) {
+  .contact-form {
+    width: 100%;
+  }
+}
+
+/* general typography tweaks */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .header .subtitle {
+    font-size: 0.9rem;
+  }
+}
+
+/* larger screens: section padding and profiles */
+@media (min-width: 900px) {
+  .section {
+    margin: 60px 0;
+  }
+
+  .profile-card {
+    max-width: 900px;
+  }
+}
+
+/* contact section styles */
+.contact-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+}
+
+.contact-list li {
+  margin: 8px 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.contact-form button {
+  background: #00b4d8;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #0d1b2a;
+  color: #fff;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-image {
+    margin-bottom: 12px;
+  }
+}

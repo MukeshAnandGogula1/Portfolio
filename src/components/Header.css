@@ -1,0 +1,30 @@
+/* Styles scoped to Header component */
+.header {
+  background-color: #0d1b2a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header .subtitle {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #00b4d8;
+}
+
+.header .links {
+  margin-top: 12px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.header .links a {
+  color: #00b4d8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header .links a:hover {
+  text-decoration: underline;
+}

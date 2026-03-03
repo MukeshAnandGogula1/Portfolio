@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from './Section';
+import './Header.css';
 
 const Contact = () => {
   return (

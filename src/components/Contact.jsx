@@ -8,7 +8,7 @@ const Contact = () => {
         <p>If you'd like to get in touch, feel free to reach out via any of the options below or
         send a quick message using the form.</p>
 
-        <ul className="contact-list">
+        <ul className="links">
           <li>
             Email: <a href="mailto:mukeshanandgogula@gmail.com">mukeshanandgogula@gmail.com</a>
           </li>
